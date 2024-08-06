@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- HEADER STARTING -->
+    <section id="header">
+        <a href="#"><img src="Garet (2).gif" alt="logo"></a>
+
+        <!-- <a href="#"> <img src="Garet (2).gif"logo" alt=""></a> -->
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-light fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-light fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+        </div>
+    </section>
+    <!-- HEADER ENDING -->
+
+
+    <section id="new">
+        <style>
+            #new marquee {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background: linear-gradient(45deg, #3f4e63, #2c3e50);
+                color: #fff;
+                padding: 10px;
+                border-radius: 5px;
+                overflow: hidden; /* Prevent the marquee from overflowing */
+            }
+    
+            /* Responsive styling using media queries */
+            @media (max-width: 768px) {
+                #new marquee {
+                    font-size: 14px; /* Adjust font size for smaller screens */
+                }
+            }
+    
+            @media (max-width: 576px) {
+                #new marquee {
+                    font-size: 12px; /* Further adjust font size for even smaller screens */
+                }
+            }
+        </style>
+        <marquee loop="-1" scrollamount="5" width="100%"> Explore a world of possibilities with our premium selection of
+            rental products. Whether you're capturing memories, gaming with friends, or immersing yourself in virtual
+            reality, we've got you covered. Experience the latest technology and elevate your adventures with ease. Rent
+            today and unlock endless possibilities!
+        </marquee>
+    </section>
+
+    <!-- <section class="text-gray-600 body-font">
+        <div class="container px-0 py-24 mx-auto">
+            <div class="flex flex-wrap -mx-1 md:-mx-2 -mb-10 text-center">
+                <div class="w-full md:w-1/2 mb-10 px-0 md:px-1">
+                    <div class="rounded-lg overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1201x501">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 mb-10 px-0 md:px-1">
+                    <div class="rounded-lg overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+    <!-- DISPLAY PAGE STARTING -->
+    <!-- <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all produts</h1>
+        <p>Save more with coupons & up to 70% off</p>
+        <button>Shop now</button>
+    </section> -->
+    <!-- DISPLAY PAGE ENDING -->
+
+
+    <section id="carousel1">
+        <div class="desktop-slider d-none d-md-block">
+            <div id="carouselDesktop" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="asli.png" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="o.png" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Discount 50 (1).png" class="d-block w-100" alt="Slide 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Slider -->
+        <div class="mobile-slider d-md-none">
+            <div id="carouselMobile" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="1.png" class="d-block w-100" alt="Slide 1 Mobile">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="2.png" class="d-block w-100" alt="Slide 2 Mobile">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="3.png" class="d-block w-100" alt="Slide 3 Mobile">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+   
+
+
+
+
+    <!-- Feature Products STARTING -->
+    <section id="product1" class="section-p1">
+        <h2>Trending Products to Rent</h2>
+        <p>EXPERIENCE MORE, SPEND LESS</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="camera/Canon-1.webp" alt="">
+
+                <div class="des">
+                    <span>Canon</span>
+                    <h5>Canon M50 Mark II with Creator Kit</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="camera/Gohero-1.webp" alt="">
+
+                <div class="des">
+                    <span>GoPro</span>
+                    <h5>GoPro Hero 10</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="ps5/Xbox Series.webp" alt="">
+
+                <div class="des">
+                    <span>Xbox</span>
+                    <h5>Xbox Series S w/2 Controllers</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="controller/PS5 Controller on rent.webp" alt="">
+
+                <div class="des">
+                    <span>PS5</span>
+                    <h5>PS5 Controller on rent</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="Console/Oculus Quest 2.webp" alt="">
+
+                <div class="des">
+                    <span>Oculus</span>
+                    <h5>Oculus Quest 2</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="DSLR/Olympus Binocular-1.webp" alt="">
+
+                <div class="des">
+                    <span>Olympus</span>
+                    <h5>Olympus Binocular</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="controller/ps4.webp" alt="">
+
+                <div class="des">
+                    <span>PS4</span>
+                    <h5>Console w/2 Controller</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="Console/Oculus Quest 2-1.webp" alt="">
+
+                <div class="des">
+                    <span>Oculus</span>
+                    <h5>Oculus Quest</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Feature Products ENDING -->
+
+
+
+
+
+    <!-- BANNER STARING -->
+    <section id="banner" class="section-m1">
+        <h4>Rent Products</h4>
+        <h2>Save up<span> to 90%</span> - All Consumer Electronics & Tech Products</h2>
+        <button class="normal">Explore More</button>
+    </section>
+    <!-- BANNER ENDING -->
+
+    <!-- SMALL CARDS STARTING -->
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/smallcard/4192736.jpg" alt="">
+            <h6>Free shipping</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/smallcard/4092982.jpg" alt="">
+            <h6>Online order</h6>
+        </div>
+
+
+        <div class="fe-box">
+            <img src="img/smallcard/5821165.jpg" alt="">
+            <h6>Save Money</h6>
+        </div>
+
+
+        <div class="fe-box">
+            <img src="img/smallcard/promotion.jpg" alt="">
+            <h6>Promotion</h6>
+        </div>
+
+
+        <div class="fe-box">
+            <img src="img/smallcard/10071.jpg" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+    <!-- SMALL CARDS ENIDNG -->
+
+
+
+
+    <!-- NEW ARRIVAL STARTING -->
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals for Rent</h2>
+        <p>Popular Shopping Deals</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="camera2/DJI.webp" alt="">
+
+                <div class="des">
+                    <span>DJI</span>
+                    <h5>RSC2 Gimbal</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="camera2/Canon EF-S 18-55mm - Compatible with Canon 1500D & 200D.webp" alt="">
+
+                <div class="des">
+                    <span>Canon</span>
+                    <h5>EF-S 18-55mm</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="camera2/Nikon.webp" alt="">
+
+                <div class="des">
+                    <span>Nikon</span>
+                    <h5>Nikon D5600</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="camera2/PS5-2.webp" alt="">
+
+                <div class="des">
+                    <span>PS5</span>
+                    <h5>PS5+FIFA22</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="camera2/PS5.webp" alt="">
+
+                <div class="des">
+                    <span>PS5</span>
+                    <h5>PS5+Spider-Man 2 with 1 Controller</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="camera2/xbox-series-s-on-rent-1_1ULKSn77F.webp" alt="">
+
+                <div class="des">
+                    <span>Xbox</span>
+                    <h5>Xbox Series S w/2 Controllers</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="camera2/rent-ps4-console-with-1-controllers-3-free-games-1_fi7gx6k5_.webp" alt="">
+
+                <div class="des">
+                    <span>PS4</span>
+                    <h5>PS4 w/1 Controller [3 Free Games]</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+
+
+            <div class="pro">
+                <img src="camera2/rent-ps4-console-with-2-controllers-3-free-games-1_2vwzlrElII.webp" alt="">
+
+                <div class="des">
+                    <span>PS4</span>
+                    <h5>PS4 w/2 Controller [3 Free Games]</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>On Rent</h4>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7980775104" target="_blank"><i
+                        class="fab fa-whatsapp cart"></i></a>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- NEW ARRIVAL ENDING -->
+
+
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>Brand new laptops for rent</h2>
+            <span>Cheapest in the market</span>
+            <button class="white">Learn more</button>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h4>iPhone</h4>
+            <h2>Rent in Unbeatable Prices!</h2>
+            <span>Available in all colors</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+
+
+
+
+    <section id="banner3">
+
+        <div class="banner-box">
+            <h2>SEASONAL SALE</h2>
+            <h3>Camera lens-50% Off</h3>
+        </div>
+
+
+        <div class="banner-box banner-box2">
+            <h2>Popular Produts</h2>
+            <h3>VR Set Box</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>Best Budget</h2>
+            <h3>Branded Headphones</h3>
+        </div>
+    </section>
+
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign up</button>
+        </div>
+    </section>
+
+
+
+
+    <footer class="section-p1">
+        <div class="colu">
+            <img class="logo" src="Garet (2).gif" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Kolkata Sugiapara 24 pgs(N)</p>
+            <p><strong>Phone:</strong> +91 7980775104/</p>
+            <p><strong>Hours:</strong> 09:00 - 18:00, Tues - Sun</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="colu">
+            <h4>About</h4>
+            <a href="#">about us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+
+        <div class="colu">
+            <h4>My Accounts</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="colu install">
+            <h4>Install App</h4>
+            <p>From App store or Google Play</p>
+            <div class="rowu">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024, R.V</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
